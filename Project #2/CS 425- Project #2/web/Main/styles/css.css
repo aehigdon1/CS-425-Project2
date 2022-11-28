@@ -1,0 +1,59 @@
+body{
+    background-color: #FFFFFF;
+    color: black;
+    font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+    font-style: normal;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 1%;
+    margin-right: 2%;
+    background-repeat: no-repeat;
+}
+
+span.small_red_line {
+    background-color: #D30000;
+    padding: 2px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+span.time{
+
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+
+}
+
+/*
+red line:
+<p ><span class="small_red_line";></span></p>
+
+smaller red line:
+<p style="background-color: #D30000; padding: 1px; margin-left: 1em; margin-right: 1em;"><span class="smaller_red_line"></span></p>
+*/
+
+span.check{
+    input[type=checkbox]{
+        vertical-align: middle;
+        position: relative;
+        bottom: 1px;
+    }  
+}
+
+/*
+button[class=goBack]{
+    line-height: 12px;
+    width: 18px;
+    font-size: 8pt;
+    font-family: tahoma;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top:0;
+    right:0;
+    position:absolute;
+    top:0;
+    right:0;
+}
+*/
